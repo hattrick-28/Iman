@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "Iman",
+    "slug": "iman",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "iman",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0B0D17",
+    "ios": {
+      "bundleIdentifier": "app.iman.kuran",
+      "supportsTablet": true,
+      "icon": "./assets/images/icon.png",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "CFBundleDevelopmentRegion": "sq"
+      }
+    },
+    "android": {
+      "package": "app.iman.kuran",
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0D17",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/favicon.png",
+      "name": "Iman",
+      "backgroundColor": "#0B0D17",
+      "themeColor": "#0B0D17"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0B0D17",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 160
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/android-icon-monochrome.png",
+          "color": "#CBA68B"
+        }
+      ],
+      "expo-web-browser",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

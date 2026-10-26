@@ -1,0 +1,100 @@
+feature,area,priority,original,clone,notes
+Sign up with email,onboarding,must,yes,no,Original offers four sign-up options plus email form
+Sign up with Apple and Google,onboarding,should,yes,no,Exact four options not confirmed; Apple is required on iOS if any social login is offered
+Onboarding carousel explaining the app,onboarding,should,yes,no,Several swipeable value screens
+Personalise: name and optional gender,onboarding,could,yes,no,Both skippable in the original
+Set daily goal during onboarding,onboarding,must,yes,no,Default seen: 1 verse per day
+Set streak goal during onboarding,onboarding,should,yes,no,Default seen: 3 days
+Choose reading setup in onboarding (font and size),onboarding,should,yes,no,Arabic preview shown
+Choose reciter and playback speed in onboarding,onboarding,could,yes,no,
+Choose translation language in onboarding,onboarding,must,yes,no,Confirmed in settings: pick up to 2 translations at once; many named translations. Each translation needs its own licence
+Pick reminder time in onboarding,onboarding,must,yes,no,Preset times seen (morning and evening)
+Plan-building loading screen,onboarding,could,yes,no,Pure polish
+Notification permission pre-prompt,onboarding,must,yes,no,Explain value before the system prompt
+Quran reader: Arabic text with translation,reader,must,yes,no,Confirmed: one verse per card with Arabic and transliteration below; translation shown or hidden by toggle. Text must come from a licensed or open source never from Quranly
+Mark reading done with an I'm Done button,reader,must,yes,no,Confirmed: Prev / I'm Done / Next bar at the bottom of the reader. This is the core loop
+Log reading as verse ranges and pages,tracking,must,yes,no,Original tracks verses pages time and hasanat
+Track time spent reading,tracking,should,yes,no,
+Hasanat counter,tracking,should,yes,no,Confirmed on home reader and leaderboard. Next button previews hasanat for the coming verse (letters x 10). Original has a Hide Hasanat setting; keep yours optional and off by default
+Daily goal card on dashboard,dashboard,must,yes,no,"Confirmed: Per Day Verses 0/10 with current surah and verse, edit pencil, juz progress bar and Read Quran button"
+Streak counter,streaks,must,yes,no,Reset by local time zone
+Streak grace period,streaks,should,yes,no,Original explains this in overlays; exact rule not confirmed
+Pause and resume streak,streaks,should,yes,no,Exact rules not confirmed
+Streak and day celebration screens,streaks,should,yes,no,
+Weekly tracker view,dashboard,must,yes,no,Confirmed: M to S weekday strip at top of home
+Calendar history view,tracking,could,yes,no,Calendar icon confirmed on home; contents and 7-day lock not re-confirmed
+Progress stats and charts,tracking,should,yes,no,Confirmed: Today / Week / All tabs over four metric cards (hasanat verses time pages)
+Daily reminder notifications,notifications,must,yes,no,Local notifications cover most of this
+Notification settings with toggles,notifications,should,yes,no,Four toggles seen
+Surah chips for quick access,reader,could,yes,no,
+Jump to chapter verse page or juz,reader,must,yes,no,Pickers and a numbered verse grid
+Resume where you left off,reader,must,unknown,no,Not evidenced in sources but expected by users
+Word-by-word translation,reader,should,yes,no,Listed in the changelog
+Tajweed colouring,reader,could,yes,no,Confirmed: Arabic shown with tajweed colours
+Swap verse navigation direction left or right,reader,could,yes,no,Changelog item
+Audio recitation with reciter choice,audio,should,yes,no,Confirmed: play and repeat-1 on each verse card; reciter in settings. Needs licensed or openly licensed audio
+Audio repeat settings,audio,could,yes,no,
+Tafsir commentary modal,reader,could,yes,no,Needs a licensed or open tafsir source
+Personal notes on verses,reader,should,yes,no,Confirmed: note icon on each verse card and a Personal Notes list in settings. Free cap of 3 not re-confirmed
+Bookmarks in named lists,saved content,should,yes,no,
+Favourite surahs,saved content,could,yes,no,Swipe to delete
+Share a verse,sharing,could,yes,no,Native share sheet
+Ayah of the Day,content,should,yes,no,
+Search the Quran,search,should,yes,no,Confirmed: language selector and a mode dropdown (Translation or Ayaat)
+Explore feed of topics,content,could,yes,no,Confirmed as Quranic Gems: grid of about 30 themed topics (patience gratitude parents etc). Write your own topic list and verse picks and use your own illustrations
+Reading challenges with levels,challenges,should,yes,no,Confirmed: four Arabic-letter levels with badges. Invent your own level names and art
+Leaderboard with friends global and region views,social,could,yes,no,Confirmed: ranked by hasanat with country flag; shows your global rank; resets daily at UTC 00:00
+Leaderboard privacy consent and revoke,social,could,yes,no,Required if the leaderboard exists
+Invite friends by link and QR code,social,could,yes,no,
+Download chapters for offline reading,offline,should,yes,no,Chapter list with download icons
+Light and dark appearance,settings,must,yes,no,
+Reading themes and colour schemes,settings,could,yes,no,
+Vibration and haptics setting,settings,could,yes,no,
+Profile with avatar and cropping,account,could,yes,no,
+Change email password and name,account,must,yes,no,
+Reset stats,account,should,yes,no,
+Delete account,account,must,yes,no,Required by both app stores
+Sign out,account,must,yes,no,
+Help and FAQ with search,support,should,yes,no,
+Subscription paywall,payments,must,yes,no,Monthly annual and lifetime seen; 3-day trial seen
+Free trial,payments,should,yes,no,
+Restore purchases,payments,must,yes,no,Required by Apple
+Feature gating between free and premium,payments,must,yes,no,Original locks many features
+Financial assistance link on paywall,payments,could,yes,no,
+Cloud sync across devices,backend,must,yes,no,Listed on AlternativeTo
+Works offline,backend,must,yes,no,Listed on AlternativeTo
+Quran text and licensed translations,content,skip,yes,skip,Content is not a feature: source your own from licensed or open sources
+Quranly's reciter audio and recordings,content,skip,yes,skip,Owned or licensed by others: use your own licensed source
+Quranly's user base and leaderboard standings,social,skip,yes,skip,The network is not part of the product you can rebuild
+Quranly's scholar endorsements and testimonials,marketing,skip,yes,skip,Never copy endorsements or testimonials
+Quranly's name logo illustrations and copy,brand,skip,yes,skip,Rebrand fully before launch
+Second independent reading position (free reading),reader,should,yes,no,Reading tab is a separate Quran so free reading never moves the daily-goal position
+Edit current position from the goal card,dashboard,should,yes,no,Pencil next to surah and verse
+Time-based reading levels with countdown,gamification,could,yes,no,Level card with a 2-minute timer and total minutes in the reader; can be turned off. Invent your own level names
+Toggle reading levels on or off,settings,could,yes,no,
+Transliteration under each verse,reader,should,yes,no,Toggle in settings. Needs a licensed or open transliteration
+Choose Quran script,reader,should,yes,no,Settings item Quran Script; fonts need licences
+Show or hide translation,settings,should,yes,no,
+Autoplay and auto-next verse,audio,could,yes,no,Two toggles in settings
+Per-verse like with global count,social,could,yes,no,Heart on each verse shows a community total
+Live community counters,social,could,yes,no,People reading now and verses read today on home; needs real-time aggregate counts. Never fake these numbers
+Invite link with bonus rewards,growth,could,yes,no,Invite card on home; bonus hasanat counter. Avoid presenting invented rewards as real hasanat
+Hide hasanat setting,settings,should,yes,no,Original offers it; in yours make hasanat off by default
+Show or hide leaderboard,settings,should,yes,no,Toggle in settings
+Leaderboard history and add friend,social,could,yes,no,Icons on the leaderboard header
+Group reading challenge with participant count,challenges,should,yes,no,"A whole-Quran-in-30-days challenge read in translation, with its own 0 of 6236 progress and its own reader. Make your own challenge names"
+Past challenges list,challenges,could,yes,no,On the Reading tab
+Mushaf page view,reader,should,yes,no,Explore card for the classic page layout; needs page-accurate layout data and a licensed font
+Search inside settings,settings,could,yes,no,
+Terms and privacy pages,legal,must,yes,no,Write your own; required by both stores
+Splash screen,onboarding,could,yes,no,Use your own name and art
+Islamic assistant chat (Quran and hadith only),assistant,must,no,no,Iman addition. Answers only from retrieved Quran and sahih or hasan hadith
+Verified references on every answer,assistant,must,no,no,"Server drops any citation that was not retrieved; quotes come from the database, never the model"
+"Citation card with Arabic, translation, grade and grader",assistant,must,no,no,Opens Quran verses in the reader
+"Refer to a scholar on rulings, never a fatwa",assistant,must,no,no,safety label refer_scholar
+Crisis response with emergency and helpline guidance,assistant,must,no,no,safety label crisis; per-country list in config
+"Daily question limit, higher for premium",assistant,must,no,no,"3 free, 50 premium"
+Report a wrong reference,assistant,should,no,no,Weekly review of reports
+Past conversations and delete thread,assistant,should,no,no,
+Albanian-first interface with English,settings,must,no,no,Iman addition for the target audience
+"Iman brand theme (night, midnight sea, dawn)",brand,must,no,no,design/tokens.json
